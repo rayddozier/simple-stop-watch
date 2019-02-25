@@ -23,7 +23,7 @@ android {
 
     android.applicationVariants.all { variant ->
         variant.outputs.all {
-            def appName = "Lit-Alarm"
+            def appName = "Stop-Watch"
             outputFileName = appName+"-${variant.versionName}.apk"
         }
     }
